@@ -35,32 +35,6 @@ The project follows a clean Handler-Service-Repository pattern to ensure scalabi
 
 ---
 
-## 📁 PROJECT STRUCTURE
-server/
-├── server.js                 # Entry point
-├── context/
-│   └── request_context.js
-├── handlers/
-│   ├── voice_handler.js      # REST API: /voice/*
-│   ├── ws_handler.js         # Browser WebSocket <-> Deepgram
-│   ├── twilio_handler.js     # REST API: /twilio/*
-│   └── twilio_ws_handler.js  # Twilio Media Streams <-> Deepgram
-├── middlewares/
-│   ├── attach_context.js
-│   ├── validate_session.js
-│   └── error_handler.js
-├── services/
-│   ├── voice_service.js      # Deepgram Voice Agent logic
-│   └── twilio_service.js     # Twilio call initiation + TwiML
-├── repositories/
-│   └── session_repository.js
-├── script/
-│   └── script.txt            # Call center script
-├── public/
-│   └── index.html            # Browser voice chat UI
-└── .env.example
-
----
 
 ## ⚙️ SETUP & INSTALLATION
 
