@@ -1,0 +1,395 @@
+================================================================================
+        JIO OUTBOUND CALL CENTER — RECHARGE ASSISTANCE SCRIPT
+              All Scenarios | Agent Reference Manual
+================================================================================
+CONFIDENTIAL — JIO INTERNAL USE ONLY
+--------------------------------------------------------------------------------
+
+HOW TO USE THIS SCRIPT
+------------------------
+This script is for Jio outbound agents calling customers to assist with mobile
+recharges, plan reminders, and renewal assistance. Read agent lines naturally —
+do not sound robotic. Customer lines are sample responses to help you prepare.
+
+  AGENT:    = What you say
+  CUSTOMER: = Common customer responses (examples)
+  [NOTE]:   = Internal guidance — do NOT read aloud
+
+
+================================================================================
+JIO PREPAID PLANS — QUICK REFERENCE (2024-25)
+================================================================================
+
+BASIC / LOW-COST PLANS
+-----------------------
+  Rs. 155   | 2GB total data, Unlimited calls, 300 SMS  | 24 days
+  Rs. 179   | 2GB/day, Unlimited calls, 50 SMS/day      | 14 days
+  Rs. 209   | 1.5GB/day, Unlimited calls, 100 SMS/day   | 28 days
+
+POPULAR / RECOMMENDED PLANS
+-----------------------------
+  Rs. 299   | 2GB/day, Unlimited calls, 100 SMS/day     | 28 days
+  Rs. 349   | 2GB/day, Unlimited calls, 100 SMS/day     | 28 days  + JioTV/JioCinema
+  Rs. 479   | 2GB/day, Unlimited calls, 100 SMS/day     | 56 days
+  Rs. 533   | 1.5GB/day, Unlimited calls, 100 SMS/day   | 84 days
+
+LONG VALIDITY / ANNUAL PLANS
+------------------------------
+  Rs. 601   | 2GB/day, Unlimited calls, 100 SMS/day     | 84 days
+  Rs. 999   | 2GB/day, Unlimited calls, 100 SMS/day     | 168 days
+  Rs. 1,799 | 2GB/day, Unlimited calls, 100 SMS/day     | 365 days
+
+5G / UNLIMITED DATA PLANS
+---------------------------
+  Rs. 349   | Unlimited 5G data + 2GB/day 4G, Calls     | 28 days
+  Rs. 629   | Unlimited 5G data + 2GB/day 4G, Calls     | 84 days
+  Rs. 1,299 | Unlimited 5G data + 2GB/day 4G, Calls     | 365 days
+
+  [NOTE]: All plans include JioTV, JioCinema, and JioCloud access.
+          5G plans require a 5G-enabled device and area coverage.
+          Always confirm current pricing in the CRM system before quoting.
+
+
+================================================================================
+PART 1 — CALL OPENING
+================================================================================
+
+STANDARD OPENING GREETING
+---------------------------
+
+  AGENT:    Namaste! Am I speaking with the Jio number holder?
+
+  CUSTOMER: Yes. / Who is this?
+
+  AGENT:    Hello Sir/Ma'am, I'm calling from Jio Customer Care. How are
+            you doing today?
+
+  CUSTOMER: I'm fine. What is this about?
+
+  AGENT:    Sir/Ma'am, I am calling regarding your Jio mobile number. Your
+            current plan is due for renewal soon, and I wanted to assist you
+            with a quick and easy recharge today. Is this a good time to talk?
+
+  CUSTOMER: Yes, go ahead.
+
+  [NOTE]: If the customer says it's a bad time, offer a callback and log it
+          in the system. Do NOT push.
+
+  AGENT:    No problem at all, Sir/Ma'am! When would be a convenient time
+            for me to call back? I want to make sure your number stays active
+            without any interruption.
+
+
+================================================================================
+PART 2 — PRESENTING THE RECHARGE PLAN
+================================================================================
+
+EXPLAINING THE CURRENT PLAN
+-----------------------------
+
+  AGENT:    Sir/Ma'am, your current Jio plan is set to expire soon. To ensure
+            you continue enjoying uninterrupted service — calls, data, and
+            Jio apps — I'd like to help you recharge today.
+
+RECOMMENDING A PLAN
+---------------------
+
+  AGENT:    Based on typical usage, I'd recommend our most popular plan at
+            Rs. 299 — it gives you 2GB data per day, unlimited calls to any
+            network in India, 100 SMS per day, and is valid for 28 days.
+            That works out to less than Rs. 11 per day!
+
+  CUSTOMER: What other options are there?
+
+  AGENT:    Of course, Sir/Ma'am! Here are a few options:
+
+            - Rs. 209  | 1.5GB/day | Unlimited calls | 28 days  (budget pick)
+            - Rs. 299  | 2GB/day   | Unlimited calls | 28 days  (most popular)
+            - Rs. 533  | 1.5GB/day | Unlimited calls | 84 days  (best for 3 months)
+            - Rs. 1,799| 2GB/day   | Unlimited calls | 365 days (best annual value)
+
+  AGENT:    If your phone supports 5G, I can also share details on our
+            unlimited 5G data plans. Would you like to know more?
+
+  [NOTE]: Match the plan to the customer's usage pattern in CRM.
+          Do not push the most expensive plan unnecessarily.
+
+
+================================================================================
+PART 3 — RECHARGE PROCESS & PAYMENT
+================================================================================
+
+GUIDE: SELF-RECHARGE VIA MYJIO APP
+-------------------------------------
+
+  AGENT:    Sir/Ma'am, you can recharge instantly through the MyJio app.
+            Would you like me to guide you step by step?
+
+  CUSTOMER: Okay, yes.
+
+  AGENT:    Perfect! Please open your MyJio app on your phone. Once it opens,
+            tap on 'Recharge' at the bottom of the screen. Your number will
+            already be filled in. Choose the plan you'd like, then select your
+            payment method — UPI, debit/credit card, or net banking. Once
+            payment is confirmed, your recharge is done instantly!
+
+  [NOTE]: Confirm if the customer has the MyJio app installed. If not,
+          suggest jio.com or the nearest Jio store as alternatives.
+
+GUIDE: RECHARGE VIA WEBSITE
+-----------------------------
+
+  AGENT:    You can also visit jio.com on your browser. Click on
+            'Quick Recharge', enter your Jio number, select your plan, and
+            pay online. It takes less than 2 minutes, Sir/Ma'am.
+
+GUIDE: RECHARGE VIA JIO STORE
+-------------------------------
+
+  AGENT:    If you prefer, you can walk into any nearby Jio store or
+            authorized retailer to recharge in person. They accept cash,
+            UPI, and card payments.
+
+
+================================================================================
+PART 4 — SCENARIO HANDLING
+================================================================================
+
+------------------------------------------------------------------------
+SCENARIO 1: Customer agrees to recharge immediately
+------------------------------------------------------------------------
+
+  CUSTOMER: Okay, I'll recharge. Can you help me do it right now?
+
+  AGENT:    Absolutely, Sir/Ma'am! I'll walk you through it. Please open the
+            MyJio app — or let me know which method works best for you:
+            app, website, or store?
+
+  AGENT:    Once the payment is successful, your plan will be activated
+            instantly and you'll receive a confirmation SMS.
+
+  AGENT:    Is there anything else I can help you with today?
+
+  CUSTOMER: No, that's fine.
+
+  AGENT:    Wonderful! Thank you so much for choosing Jio. Have a great
+            day! Goodbye!
+
+------------------------------------------------------------------------
+SCENARIO 2: Customer says they will recharge later
+------------------------------------------------------------------------
+
+  CUSTOMER: I'll do it myself later. Don't worry.
+
+  AGENT:    Of course, Sir/Ma'am! I completely understand. I just wanted to
+            make sure you're aware that once your plan expires, outgoing
+            calls and data will stop working until the recharge is done.
+
+  AGENT:    I'd recommend recharging at least 1-2 days before expiry to
+            avoid any gap in service. Would you like me to send you a
+            reminder SMS?
+
+  CUSTOMER: Yes, send the reminder.
+
+  AGENT:    Done! You'll receive a reminder SMS 2 days before your plan
+            expires. Thank you, Sir/Ma'am, and have a great day!
+
+------------------------------------------------------------------------
+SCENARIO 3: Customer asks about cheaper plans
+------------------------------------------------------------------------
+
+  CUSTOMER: Is there any cheaper plan available?
+
+  AGENT:    Certainly, Sir/Ma'am! We have options starting from Rs. 155.
+            Here are a few affordable choices:
+
+            - Rs. 155  | 2GB total  | Unlimited calls | 24 days
+            - Rs. 179  | 2GB/day    | Unlimited calls | 14 days
+            - Rs. 209  | 1.5GB/day  | Unlimited calls | 28 days
+
+  AGENT:    The Rs. 209 plan is the best budget option as it gives you
+            28 days of daily data — better value than the shorter packs.
+            Which one would you prefer, Sir/Ma'am?
+
+  [NOTE]: Always present 2-3 options. Never push only expensive plans.
+
+------------------------------------------------------------------------
+SCENARIO 4: Customer is unhappy or has a complaint
+------------------------------------------------------------------------
+
+  CUSTOMER: My internet was not working last week. Why should I recharge?
+
+  AGENT:    I sincerely apologize for the inconvenience, Sir/Ma'am. I
+            completely understand how frustrating that must have been. Let
+            me note your concern and escalate it to our technical team.
+
+  AGENT:    To ensure your service is restored to full quality, I'd recommend
+            recharging today — our team can also investigate the network issue
+            once the number is active. Your satisfaction is our top priority.
+
+  AGENT:    Would you like me to raise a service complaint right now?
+
+  CUSTOMER: Yes, please do that.
+
+  AGENT:    I've registered your complaint. Our team will follow up within
+            24-48 hours. Thank you for bringing this to our attention,
+            Sir/Ma'am.
+
+------------------------------------------------------------------------
+SCENARIO 5: Customer is planning to switch / port out
+------------------------------------------------------------------------
+
+  CUSTOMER: I'm thinking of switching to Airtel.
+
+  AGENT:    I understand, Sir/Ma'am. May I ask what is making you consider
+            switching? Is it the price, coverage, or something else?
+
+  CUSTOMER: The data speed is not good in my area.
+
+  AGENT:    Thank you for sharing that, Sir/Ma'am. Jio has been actively
+            upgrading towers across many regions and speeds are improving.
+            I can also escalate a network feedback request for your area.
+
+  AGENT:    With Jio's 5G rollout expanding rapidly, coverage is set to
+            improve further very soon. Before you decide, may I offer you
+            our Rs. 533 plan — 1.5GB/day for 84 days with unlimited calls?
+            It's excellent value and we'd love to keep you with Jio.
+
+  [NOTE]: If the customer is firm about porting, thank them politely and
+          log the churn reason. Do not argue or plead.
+
+------------------------------------------------------------------------
+SCENARIO 6: Customer is elderly / not tech-savvy
+------------------------------------------------------------------------
+
+  CUSTOMER: I don't know how to use apps or internet. Can someone come?
+
+  AGENT:    Of course, Sir/Ma'am! You don't need to worry at all. You can
+            visit your nearest Jio store and our team there will happily
+            recharge for you in person. You can also ask a family member
+            or trusted person to help with the app at home.
+
+  AGENT:    Would you like me to send the address of the nearest Jio
+            store to this number via SMS?
+
+  [NOTE]: Look up the nearest Jio store using the internal store locator
+          tool and offer to SMS the address to the customer.
+
+------------------------------------------------------------------------
+SCENARIO 7: Customer suspects fraud / phishing call
+------------------------------------------------------------------------
+
+  CUSTOMER: How do I know you're from Jio? This sounds like a fraud call.
+
+  AGENT:    Sir/Ma'am, I completely understand your concern, and I appreciate
+            your caution — it's always good to be careful. I am calling from
+            Jio's official outbound service. Please know that Jio agents will
+            NEVER ask for your OTP, password, CVV, or any bank details. We
+            only share plan information and guide you to recharge yourself.
+
+  AGENT:    If you'd like to verify, you're welcome to hang up and call Jio
+            Customer Care directly at 199 or 1800-889-9999. You can also
+            check your plan expiry on the MyJio app at any time.
+
+  AGENT:    Your safety is our priority, Sir/Ma'am.
+
+  [NOTE]: NEVER ask for OTP, PIN, CVV, bank account number, or Aadhaar
+          number — under any circumstances, on any call.
+
+------------------------------------------------------------------------
+SCENARIO 8: Customer's number is already recharged
+------------------------------------------------------------------------
+
+  CUSTOMER: I already recharged yesterday.
+
+  AGENT:    That's wonderful, Sir/Ma'am! You're all set then. I apologize
+            for the unnecessary interruption. Is there anything else I can
+            help with — perhaps about JioCinema, JioFiber, or our annual
+            plans that offer even better value?
+
+  CUSTOMER: No, I'm fine.
+
+  AGENT:    Perfect! Thank you for your time. Have a wonderful day! Goodbye!
+
+  [NOTE]: Update CRM — mark as 'Already Recharged — No Action Needed'.
+          Remove from the current call campaign list.
+
+------------------------------------------------------------------------
+SCENARIO 9: Customer says they cannot afford recharge right now
+------------------------------------------------------------------------
+
+  CUSTOMER: I'm a bit short on money right now.
+
+  AGENT:    I understand completely, Sir/Ma'am. Please don't worry at all.
+            When you're ready, we have plans starting as low as Rs. 155 so
+            you can pick whatever suits your budget at that time.
+
+  AGENT:    Would you like me to send a list of our affordable plan options
+            via SMS so you can recharge when convenient?
+
+  CUSTOMER: Yes, please.
+
+  AGENT:    Done! Take your time and recharge whenever you're ready.
+            Thank you, Sir/Ma'am, and take care!
+
+------------------------------------------------------------------------
+SCENARIO 10: Language / Communication Barrier
+------------------------------------------------------------------------
+
+  [NOTE]: If the customer speaks a regional language and you are proficient,
+          switch to that language immediately. Keep sentences short and
+          simple. Avoid all technical jargon.
+
+  AGENT:    Sir/Ma'am, would you prefer if I speak in another language?
+            I want to make this as easy as possible for you.
+
+  [NOTE]: If you cannot assist in the customer's preferred language, offer
+          to transfer to a regional language agent and do so promptly.
+
+
+================================================================================
+PART 5 — CALL CLOSING
+================================================================================
+
+STANDARD CALL CLOSING
+-----------------------
+
+  AGENT:    Sir/Ma'am, is there anything else I can help you with today?
+
+  CUSTOMER: No, I think that's all.
+
+  AGENT:    Wonderful! Thank you so much for your time. We truly value you
+            as a Jio customer. For any future help, you can always reach us
+            at 199 or through the MyJio app. Have a fantastic day! Goodbye!
+
+  [NOTE]: Always end the call warmly. Never hang up abruptly. Let the
+          customer disconnect first whenever possible.
+
+
+================================================================================
+PART 6 — AGENT DOs AND DON'Ts
+================================================================================
+
+DO:
+----
+  - Greet the customer politely at the start of every call
+  - Speak clearly and at a moderate, comfortable pace
+  - Be patient — especially with elderly or confused customers
+  - Listen fully before responding
+  - Offer a callback if the customer is busy
+  - Suggest lower-cost plans if the customer asks for cheaper options
+  - Log all call outcomes in CRM within 5 minutes of ending the call
+  - Raise complaints on behalf of the customer when requested
+  - Remind customers that Jio will never ask for OTP or bank details
+
+DON'T:
+-------
+  - NEVER ask for OTP, password, PIN, CVV, or any bank/card details
+  - NEVER repeat or confirm personal details aloud during the call
+  - NEVER pressure or argue with the customer
+  - NEVER make false promises about network speeds or plan benefits
+  - NEVER hang up without a proper warm closing
+  - NEVER dismiss or make fun of a customer's concern
+  - NEVER quote plan prices from memory — always verify in CRM system
+
+
